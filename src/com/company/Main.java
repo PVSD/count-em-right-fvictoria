@@ -10,7 +10,7 @@ public class Main {
             Scanner kbReader = new Scanner(System.in);
             input = kbReader.nextLine();
             input += "z";
-            if (input.equals("EX".toUpperCase()))
+            if (input.equals("ex".toUpperCase()))
                 break;
 
             sp = input.split("S\\s*A");
